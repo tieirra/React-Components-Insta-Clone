@@ -16,7 +16,11 @@ const  [posts , setPosts] = useState(dummyData);
 
   return (
     <div className="posts-container-wrapper">
-      {/* map through data here to return a Post and pass data as props to Post */}
+      {/* map through data here to return a Post and pass data as props to Post */
+      const newPosts = posts.map((posts) {
+        
+      }
+      }
     </div>
   );
 };
